@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Madison Green | Digital Resume</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/flk2brk.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
   </head>
   <body>
     <main>
@@ -21,16 +26,23 @@
 
         <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
         <section class="projects">
-            <div class="content-wrap">
+            <div class="content-wrap divider">
                 <h2>Featured Projects</h2>
                 <p>View selected projects below. More information can be found at <a class="btn" href="http://oneawesomesite.com">oneawesomesite.com</a>.</p>
 
-                <!-- Copy the whole <section> block to add more projects. -->
-                <section>
-                <h3>Project Name</h3>
-                <img src="https://picsum.photos/id/1018/600" alt="random placeholder image">
-                <p>Summary or description of the project and role in it.</p>
-                <a class= "btn" href="#" target="_blank">View project / case study</a>
+                <!-- Project One -->
+                <section class="project-item">
+                    <img src="https://picsum.photos/id/1018/600" alt="random placeholder image">
+                    <h3>Project Name</h3>
+                    <p>Summary or description of the project and role in it.</p>                   
+                    <a class= "btn" href="#" target="_blank">View project / case study</a>
+                </section>
+                <!-- Project Two -->
+                <section class="project-item">
+                    <img src="https://picsum.photos/id/1018/600" alt="random placeholder image">
+                    <h3>Project Name</h3>
+                    <p>Summary or description of the project and role in it.</p>
+                    <a class= "btn" href="#" target="_blank">View project / case study</a>
                 </section>
             </div>
             <!-- End of Project block. -->
@@ -38,23 +50,45 @@
 
         <!-- ***********************  WORK EXPERIENCE  *********************** -->
         <section class="work-experience">
-            <div class="content-wrap">
+            <div class="content-wrap item-details divider">
                 <h2>Work Experience</h2>
-                <p>Optional paragraph for work experience summary. Not a part of the job details.</p>
+                <p>See a graphic of my work experience at <a href="workexperienceexample.com">workexperienceexample.com</a></p>
 
-                <!-- Copy this whole <section> block to add more jobs. -->
-                <section>
-                <h3>Job title</h3>
-                <p>Company Name</p>
-                <p>Date at job</p>
-                <p>Job summary goes here.</p>
-                <p>Optional list:</p>
-                <ul>
-                    <li>One thing.</li>
-                    <li>Created...</li>
-                    <li>Lead...</li>
-                    <li>Responsible for...</li>
-                </ul>
+                <!-- Current Job  -->
+                <section class="job-item">
+                    <div class="job-details">
+                        <h3>Full Time Student | Awesome Mom</h3>
+                        <p>Arizona State University</p>
+                        <p>July 2022 - Present</p>
+                    </div>
+                    <div class="job-summary">
+                        <p>Full-time student and full-time mom. Maintaining over 4.0 GPA while ensuring home is healthy, happy, and always learning.</p>
+                        <p>Optional list:</p>
+                        <ul>
+                            <li>One thing.</li>
+                            <li>Created...</li>
+                            <li>Lead...</li>
+                            <li>Responsible for...</li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- First Previous Job  -->
+                <section class="job-item">
+                    <div class="job-details">
+                        <h3>Medical Laboratory Specialist | Section Leader</h3>
+                        <p>United States Army</p>
+                        <p>January 2012 - July 2022</p>
+                    </div>
+                    <div class="job-summary">
+                        <p>Served as squad leader and Medical Laboratory Sergeant for multiple Soldier Support operations in the United States and overseas.</p>
+                        <p>Optional list:</p>
+                        <ul>
+                            <li>One thing.</li>
+                            <li>Created...</li>
+                            <li>Lead...</li>
+                            <li>Recommended for promotion above peers for outstanding performance.</li>
+                        </ul>
+                    </div>
                 </section>
             </div>
             <!-- End of Job block. -->
@@ -62,14 +96,14 @@
 
         <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
         <section class="education">
-            <div class="content-wrap">
+            <div class="content-wrap item-details">
                 <h2>Education</h2>
 
                 <!-- Copy this whole <section> block to add more schools. -->
                 <section>
-                <h3>School name - City</h3>
-                <p>Designation received or program name, year attended</p>
-                <p>Summary or accomplishments.</p>
+                    <h3>School name - City</h3>
+                    <p>Designation received or program name, year attended</p>
+                    <p>Summary or accomplishments.</p>
                 </section>
             </div>
             <!-- End of School block. -->
@@ -77,17 +111,15 @@
 
         <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
         <footer>
-            <div class="content-wrap">
                 <h2>Let's Keep in Touch!</h2>
                 <!-- Social media and contact links. Add or remove any networks. -->
-                <ul>
-                <li><a href="mailto:email@example.com">email@example.com</a></li>
-                <li><a href="http://mywebsite.com" target="_blank">mywebsite.com</a></li>
-                <li><a href="#" target="_blank">Twitter</a></li>
-                <li><a href="#" target="_blank">LinkedIn</a></li>
-                <li><a href="#" target="_blank">Facebook</a></li>
+                <ul class="contact-list">
+                    <li><a href="mailto:email@example.com">email@example.com</a></li>
+                    <li><a href="http://mywebsite.com" target="_blank">mywebsite.com</a></li>
+                    <li><a href="#" target="_blank">Twitter</a></li>
+                    <li><a href="#" target="_blank">LinkedIn</a></li>
+                    <li><a href="#" target="_blank">Facebook</a></li>
                 </ul>
-            <div class="content-wrap"></div>
         </footer>
     </main>
   </body>
