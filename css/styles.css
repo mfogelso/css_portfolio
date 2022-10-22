@@ -3,7 +3,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-/* 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-/* article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -46,7 +45,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-} */ 
+} 
 
 /* Global variables
 --------------------------------------*/
@@ -98,7 +97,24 @@ h1, h2 {
     margin: 0;
 }
 h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
     margin-bottom: 0;
+}
+li {
+    display: list-item;
+    margin-left: 18px;
+}
+p {
+    margin: 12px 0;
+}
+ul {
+    list-style-type: circle;
 }
 strong {
     font-weight: bold;
@@ -170,7 +186,7 @@ header {
 /* Education
 --------------------------------------*/
 .education {
-    background: url(../images/joanna-kosinska-unsplash.jpg) no-repeat top right/cover;
+    background: url(../images/joanna-kosinska-unsplash.jpg) no-repeat top left/cover;
     padding-bottom: 50px;
 }
 .education p {
@@ -219,7 +235,7 @@ footer {
     h1 {
         font-size: 75px;
         line-height: 1;
-        margin-bottom: 20px;
+        margin-bottom: 24px;
     }
     .contact-list a {
         padding: 6px;
